@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head -->
+    <head>
+        <title>Rebecca Shalom Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="./css/styling.css">
+    </head>
+
+    <!-- Body -->
+    <body>
+
+        <!-- Navbar -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!-- Breaks for spacing-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./Img/Keyboard - 10822.mp4" type="video/mp4">Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <!-- Video text -->
+        <div class="Video_Text">
+            <h1 class="white-text">Rebecca Shalom Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Programming isn't about what you know; it's about what you can figure out.</q>
+                    <br> -Chris Pine
+                    <br>
+                    <br>My name is Rebecca Shalom. Welcome to my portfolio website! On it, I will tell you about my computer programming background and experience.
+                    <br>
+                    <br>Thank you for stopping by! Enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!-- About Section -->
+        <div class="Row" id="About">
+            <!-- Left Column -->
+            <div class="Column_2">
+                <img src="./Img/code-g582513761_640.jpg" alt="Computer screen filled with code."> 
+            </div>
+            <!-- Right Columnm-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>I am a software developer who loves to code! I am ambitious, motivated, and always up for a challenge!
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Front-End Developer Boot Camp, and trained and experienced in the following programming languages: HTML, CSS, JavaScript, and more.
+                    <br>
+                    <br>I am a front-end developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub Section -->
+        <div class="Row" id="GitHub">
+            <!-- Left Column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>You can view my coding projects on my Github profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Rshalom" target="_blank">Rebecca Shalom Github</a></p>
+                </p>
+            </div>
+            <!-- Right Column -->
+            <div class="Column_2">
+                <a href="https://github.com/Rshalom" target="_blank"><img src="./Img/github-g9e23b94f1_640.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="Row" id="Contact">
+            <!-- Left Column contact image -->
+            <div class="Column_2 Column_tall">
+                <img src="./Img/finger-g7f5571790_640.jpg" alt="Contact_Image">
+            </div>
+            <!-- Right Column contact form -->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/meqndwog" method="POST"> <!-- 3rd party email service to submit contact form -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer section -->
+        <footer>
+            <p>
+                <p class="center">Rebecca Shalom &nbsp;|&nbsp; rebeccag7600@gmail.com &nbsp;|&nbsp; 917-538-0047</p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
