@@ -26,6 +26,9 @@ function showSlides(n) {
     var dots = document.getElementsByClassName("dot"); //Takes all elements with class name "dot" and stores them in the variable array "dots"
     if (n > slides.length) {slideIndex = 1}; //If number passed into function is greater than length of array, slideIndex is set to 1
     if (n < 1) {slideIndex = slides.length}; //If number passed into function is less than 1, the slideIndex is set to the length of the "slides" array
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; //Takes each item in array and sets display to none
+    }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", ""); //Takes each item in "dots" array and removes "active" which removes the active styling
     }
